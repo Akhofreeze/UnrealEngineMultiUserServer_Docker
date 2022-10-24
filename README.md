@@ -17,3 +17,9 @@ kaniko/executor
 --build-arg IMAGE_NAME=$IMAGE_NAME
 --build-arg UNREAL_VERSION=$UNREAL_VERSION
 --destination dockerhub/$IMAGE_NAME:IMAGE_TAG
+
+For more information please check the unreal engine official documentation: 
+https://docs.unrealengine.com/4.27/en-US/ProductionPipelines/MultiUserEditing/
+
+This tool is easy to use but a bit hard to configure for multiple users.
+You can use VPN to make more easy connection.
